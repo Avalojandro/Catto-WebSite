@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800&display=swap');
+
+body{
+    background: linear-gradient(270deg, #ffba8d -10.32%, #ffffff 100%);
+    overflow: hidden;
+}
+
+.options
+{
+    padding-bottom: 8px !important;
+}
+
+.nosotros
+{
+border-width: 5px !important;
+border-color: black !important;
+}
+
+.btn-catto
+{
+    background-color: #ff6804 !important;
+    color: #ffffff !important;
+    border-radius: 90px !important;
+    border-color: transparent !important;
+}
+.btn-catto:hover{text-decoration: none;}
+
+.radius
+{
+    border-radius: 25px !important;
+}
+
+.patreon{
+width: 140px;
+height: 35px;
+border-radius: 25px !important;
+}
+.patreon:hover{text-decoration: none;}
+
+
+.barra
+{
+    text-align: center !important;
+    background-color: #a1a1a17e;
+    padding-top: 10px;
+}
+
+.animaciones
+{
+    text-align: center;
+}
+
+.class
+{
+    color: #f7cd12 !important;
+    background-color: #1f1f1f !important;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.bottom
+{
+    padding-bottom: 25px !important;
+    padding-top: 25px !important;
+}
+
+.titulos
+{
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 82px;
+    font-weight: bold;
+}
+.sub
+{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.advice{font-size: 30px;}
+
+
+/*Media Queries*/
+
+@media(max-width: 380px){
+    .titulos{font-size: 60px;}
+}

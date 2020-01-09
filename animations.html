@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Catto-CSS / Animations</title>
+</head>
+<body>
+        <link rel="stylesheet" href="css/animations.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/bulma.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/catto2.css">
+
+        <nav class="navbar shadow navbar-expand-lg navbar-light bg-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                  <a class="navbar-brand" href="./index.html"><img class="cato h-swing" src="images/catto-logo2.png" width="245" height="70" alt=""></a>
+                  <ul class="navbar-nav mr-auto mt-2 mt-lg-0 options">
+                    <li class="nav-item active">
+                      <a class="nav-link h-float" href="#">Documentation <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link h-float" href="#">Download</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link h-float" href="#">Animations</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link h-float" href="#">Sponsors</a>
+                    </li>
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                    <a href="https://github.com/Avalojandro/Catto-CSS" target="blank"><img src="images/git.svg" class="h-grow" width="25" height="25" alt=""></a>&nbsp;&nbsp; 
+                    <a href="https://www.patreon.com/avalojandro" target="blank"> <img src="images/patreon.png" class="patreon h-shakeFix" alt=""></a>&nbsp;&nbsp;
+                    <a href="https://github.com/Avalojandro/Work-With-Us-Catto-CSS-" target="blank" class="button radius btn-catto h-jello">Work with us</a>
+                  </form>
+                </div>
+              </nav>
+
+              <br><br><br>
+
+              <div align="center"><span class="titulos">Hover Animations</span><br><span><b>Just click on the button to copy the class</b></span><br>
+           <br>
+            </div><br>
+<div class="columns is-vcentered animaciones">
+    <div class="column"><a id="h-float" onclick="copiarAlPortapapeles('h-float')" class="class button bottom h-float">h-float</a></div>
+    <div class="column"><a id="h-rotate-180" onclick="copiarAlPortapapeles('h-rotate-180')" class="class button bottom h-rotate-180">h-rotate-180</a></div>
+    <div class="column"><a id="h-rotate-360" onclick="copiarAlPortapapeles('h-rotate-360')" class="class button bottom h-rotate-360">h-rotate-360</a></div>
+    <div class="column"><a id="h-flex" onclick="copiarAlPortapapeles('h-flex')" class="class button bottom h-flex">h-flex</a></div>
+</div><br>
+<div class="columns is-vcentered animaciones">
+        <div class="column"><a id="h-transLeft" onclick="copiarAlPortapapeles('h-transLeft')" class="class button bottom h-transLeft">h-transLeft</a></div>
+        <div class="column"><a id="h-transRight" onclick="copiarAlPortapapeles('h-transRight')" class="class button bottom h-transRight">h-transRight</a></div>
+        <div class="column"><a id="h-transUp" onclick="copiarAlPortapapeles('h-transUp')" class="class button bottom h-transUp">h-transUp</a></div>
+        <div class="column"><a id="h-transDown" onclick="copiarAlPortapapeles('h-transDown')" class="class button bottom h-transDown">h-transDown</a></div>
+    </div><br>
+    <div class="columns is-vcentered animaciones">
+            <div class="column"><a id="h-toStretch" onclick="copiarAlPortapapeles('h-toStretch')" class="class button bottom h-toStretch">h-toStretch</a></div>
+            <div class="column"><a id="h-skew" onclick="copiarAlPortapapeles('h-skew')" class="class button bottom h-skew">h-skew</a></div>
+            <div class="column"><a id="h-skewX" onclick="copiarAlPortapapeles('h-skewX')" class="class button bottom h-skewX">h-skewX</a></div>
+            <div class="column"><a id="h-skewY" onclick="copiarAlPortapapeles('h-skewY')" class="class button bottom h-skewY">h-skewY</a></div>
+        </div><br>
+        <div class="columns is-vcentered animaciones">
+                <div class="column"><a id="h-float-fluid" onclick="copiarAlPortapapeles('h-float-fluid')" class="class button bottom h-float-fluid">h-float-fluid</a></div>
+                <div class="column"><a id="h-grow" onclick="copiarAlPortapapeles('h-grow')" class="class button bottom h-grow">h-grow</a></div>
+                <div class="column"><a id="h-flipUp-360" onclick="copiarAlPortapapeles('h-flipUp-360')" class="class button bottom h-flipUp-360">h-flipUp-360</a></div>
+                <div class="column"><a id="h-flipUp" onclick="copiarAlPortapapeles('h-flipUp-180')" class="class button bottom h-flipUp-180">h-flipUp-180</a></div>
+            </div><br>
+            <div class="columns is-vcentered animaciones">
+                    <div class="column"><a id="h-flipSide-180" onclick="copiarAlPortapapeles('h-flipSide-180')" class="class button bottom h-flipSide-180">h-flipSide-180</a></div>
+                    <div class="column"><a id="h-flipSide-360" onclick="copiarAlPortapapeles('h-flipSide-360')" class="class button bottom h-flipSide-360">h-flipSide-360</a></div>
+                    <div class="column"><a id="h-shake" onclick="copiarAlPortapapeles('h-shake')" class="class button bottom h-shake">h-shake</a></div>
+                    <div class="column"><a id="h-shakeFix" onclick="copiarAlPortapapeles('h-shakeFix')" class="class button bottom h-shakeFix">h-shakeFix</a></div>
+                </div><br>
+                <div class="columns is-vcentered animaciones">
+                    <div class="column h-bounceShakeX"><a id="h-bounceShakeX" onclick="copiarAlPortapapeles('h-bounceShakeX')" class="class button bottom ">h-bounceShakeX</a></div>
+                    <div class="column h-bounceShakeY"><a id="h-bounceShakeY" onclick="copiarAlPortapapeles('h-bounceShakeY')" class="class button bottom ">h-bounceShakeY</a></div>
+                    <div class="column"><a id="h-surprise" onclick="copiarAlPortapapeles('h-surprise')" class="class button bottom h-surprise">h-surprise</a></div>
+                    <div class="column"><a id="h-jello" onclick="copiarAlPortapapeles('h-jello')" class="class button bottom h-jello">h-jello</a></div>
+                </div><br>
+                <div class="columns is-vcentered animaciones">
+                    <div class="column"><a id="h-swing" onclick="copiarAlPortapapeles('h-swing')" class="class h-swing button bottom ">h-swing</a></div>
+                    <div class="column h-hinge"><a id="h-hinge" onclick="copiarAlPortapapeles('h-hinge')" class="class h-hinge button bottom ">h-hinge</a></div>
+                </div><br><br>
+
+                <div align="center"><span class="titulos">Automatic Animations</span><br><span><b>Just click on the button to copy the class</b><br>
+                </span>
+                <span>(The automatic animations it's only activate when you reload the site and only happend one time)</span>
+                <br>
+                  <br>
+                   </div><br>
+
+                   <div class="columns is-vcentered animaciones">
+                      <div class="column"><a id="a-fade" onclick="copiarAlPortapapeles('a-fade')" class="class button bottom a-fade">a-fade</a></div>
+                      <div class="column"><a id="a-respite" onclick="copiarAlPortapapeles('a-respite')" class="class button bottom a-respite">a-respite</a></div>
+                      <div class="column"><a id="a-blink" onclick="copiarAlPortapapeles('a-blink')" class="class button bottom a-blink">a-blink</a></div>
+                      <div class="column"><a id="a-sigh" onclick="copiarAlPortapapeles('a-sigh')" class="class button bottom a-sigh">a-sigh</a></div>
+                  </div><br><br><br><br>
+
+                  <div class="columns is-vcentered animaciones">
+                    <div class="column"><a id="a-bounce" onclick="copiarAlPortapapeles('a-bounce')" class="class button bottom a-bounce">a-bounce</a></div>
+                    <div class="column"><a id="a-heartBeat" onclick="copiarAlPortapapeles('a-heartBeat')" class="class button bottom a-heartBeat">a-heartBeat</a></div>
+                    <div class="column"><a id="a-showRotate" onclick="copiarAlPortapapeles('a-showRotate')" class="class button bottom a-showRotate">a-showRotate</a></div>
+                    <div class="column"><a id="a-swing" onclick="copiarAlPortapapeles('a-swing')" class="class button bottom a-swing">a-swing</a></div>
+                </div><br><br><br><br>
+
+                <div class="columns is-vcentered animaciones">
+                  <div class="column"><a id="a-jello" onclick="copiarAlPortapapeles('a-jello')" class="class button bottom a-jello">a-jello</a></div>
+                  <div class="column"><a id="a-hinge" onclick="copiarAlPortapapeles('a-hinge')" class="class button bottom a-hinge">a-hinge</a></div>
+              </div><br><br><br><br>
+
+              <div class="columns is-vcentered animaciones">
+                <div class="column"><a id="a-zoomOutLeft" onclick="copiarAlPortapapeles('a-zoomOutLeft')" class="class button bottom a-zoomOutLeft">a-zoomOutLeft</a></div>
+                <div class="column"><a id="a-zoomOutRight" onclick="copiarAlPortapapeles('a-zoomOutRight')" class="class button bottom a-zoomOutRight">a-zoomOutRight</a></div>
+            </div><br><br><br><br><br>
+
+            <div align="center"><span class="titulos">Infinite Animations</span><br><span><b>Just click on the button to copy the class</b><br>
+            </span>
+<br><br><br>
+
+<div class="columns is-vcentered animaciones">
+  <div class="column"><a id="i-bounce" onclick="copiarAlPortapapeles('i-bounce')" class="class button bottom i-bounce">i-bounce</a></div>
+  <div class="column"><a id="i-bounceLeft" onclick="copiarAlPortapapeles('i-bounceLeft')" class="class button bottom i-bounceLeft">i-bounceLeft</a></div>
+  <div class="column"><a id="i-bounceRight" onclick="copiarAlPortapapeles('i-bounceRight')" class="class button bottom i-bounceRight">i-bounceRight</a></div>
+  <div class="column"><a id="i-bouncing" onclick="copiarAlPortapapeles('i-bouncing')" class="class button bottom i-bouncing">i-bouncing</a></div>
+</div><br><br><br><br>
+
+<div class="columns is-vcentered animaciones">
+  <div class="column"><a id="i-shakeX" onclick="copiarAlPortapapeles('i-shakeX')" class="class button bottom i-shakeX">i-shakeX</a></div>
+  <div class="column"><a id="i-shakeY" onclick="copiarAlPortapapeles('i-shakeY')" class="class button bottom i-shakeY">i-shakeY</a></div>
+  <div class="column"><a id="i-shake" onclick="copiarAlPortapapeles('i-shake')" class="class button bottom i-shake">i-shake</a></div>
+  <div class="column"><a id="i-skewX" onclick="copiarAlPortapapeles('i-skewX')" class="class button bottom i-skewX">i-skewX</a></div>
+</div><br><br><br><br>
+
+<div class="columns is-vcentered animaciones">
+  <div class="column"><a id="i-skewY" onclick="copiarAlPortapapeles('i-skewY')" class="class button bottom i-skewY">i-skewY</a></div>
+  <div class="column"><a id="i-jello" onclick="copiarAlPortapapeles('i-jello')" class="class button bottom i-jello">i-jello</a></div>
+  <div class="column"><a id="i-swing" onclick="copiarAlPortapapeles('i-swing')" class="class button bottom i-swing">i-swing</a></div>
+  <div class="column"><a id="i-hinge" onclick="copiarAlPortapapeles('i-hinge')" class="class button bottom i-hinge">i-hinge</a></div>
+</div><br><br><br><br>
+
+<div align="center"><span class="titulos">Scroll Animations</span><br><span><b>Just click on the button to copy the class</b><br>
+  <b class="advice">Scroll slowly to see animations better (You can reload the page)</b>
+</span>
+<br><br><br><br><br>
+
+<div class="columns is-vcentered animaciones">
+<div class="column"><a id="s-o-bounce" onclick="copiarAlPortapapeles('s-o-bounce')" class="class button bottom s-o-bounce">s-o-bounce</a></div>
+<div class="column"><a id="i-bounceLeft" onclick="copiarAlPortapapeles('s-o-surprice')" class="class button bottom s-o-surprice">s-o-surprice</a></div>
+</div><br><br><br><br>
+
+<div class="columns is-vcentered animaciones">
+<div class="column"><a id="s-o-slideFadeLeft" onclick="copiarAlPortapapeles('s-o-slideFadeLeft')" class="class button bottom s-o-slideFadeLeft">s-o-slideFadeLeft</a></div>
+<div class="column"><a id="s-o-slideFadeRight" onclick="copiarAlPortapapeles('s-o-slideFadeRight')" class="class button bottom s-o-slideFadeRight">s-o-slideFadeRight</a></div>
+</div><br><br><br><br>
+
+<div class="columns is-vcentered animaciones">
+<div class="column"><a id="s-o-slideFadeUp" onclick="copiarAlPortapapeles('s-o-slideFadeUp')" class="class button bottom s-o-slideFadeUp">s-o-slideFadeUp</a></div>
+<div class="column"><a id="s-o-slideFadeDown" onclick="copiarAlPortapapeles('s-o-slideFadeDown')" class="class button bottom s-o-slideFadeDown">s-o-slideFadeDown</a></div>
+</div><br><br><br><br>
+
+<div class="columns is-vcentered animaciones">
+  <div class="column"><a id="s-o-blink" onclick="copiarAlPortapapeles('s-o-blink')" class="class button bottom s-o-blink">s-o-blink</a></div>
+  <div class="column"><a id="s-o-sight" onclick="copiarAlPortapapeles('s-o-sight')" class="class button bottom s-o-sight">s-o-sight</a></div>
+  </div><br><br><br><br>
+  
+  <div class="columns is-vcentered animaciones">
+  <div class="column"><a id="s-o-respite" onclick="copiarAlPortapapeles('s-o-respite')" class="class button bottom s-o-respite">s-o-respite</a></div>
+  <div class="column"><a id="s-o-heartbeat" onclick="copiarAlPortapapeles('s-o-heartbeat')" class="class button bottom s-o-heartbeat">s-o-heartbeat</a></div>
+  </div><br><br><br><br>
+  
+  <div class="columns is-vcentered animaciones">
+  <div class="column"><a id="s-o-zoomOutRight" onclick="copiarAlPortapapeles('s-o-zoomOutRight')" class="class button bottom s-o-zoomOutRight">s-o-zoomOutRight</a></div>
+  <div class="column"><a id="s-o-zoomOutLeft" onclick="copiarAlPortapapeles('s-o-zoomOutLeft')" class="class button bottom s-o-zoomOutLeft">s-o-zoomOutLeft</a></div>
+  </div><br><br><br><br>
+
+  <div class="columns is-vcentered animaciones">
+  <div class="column"><a id="s-o-zoomOutUp" onclick="copiarAlPortapapeles('s-o-zoomOutUp')" class="class button bottom s-o-zoomOutUp">s-o-zoomOutUp</a></div>
+  <div class="column"><a id="s-o-zoomOutDown" onclick="copiarAlPortapapeles('s-o-zoomOutDown')" class="class button bottom s-o-zoomOutDown">s-o-zoomOutDown</a></div>
+  </div><br><br><br><br>
+
+    <div class="columns is-vcentered animaciones">
+    <div class="column"><a id="s-o-showRotate" onclick="copiarAlPortapapeles('s-o-showRotate')" class="class button bottom s-o-showRotate">s-o-showRotate</a></div>
+    <div class="column"><a id="s-o-swing" onclick="copiarAlPortapapeles('s-o-swing')" class="class button bottom s-o-swing">s-o-swing</a></div>
+    </div><br><br><br><br>
+
+    <div class="columns is-vcentered animaciones">
+    <div class="column"><a id="s-o-jello" onclick="copiarAlPortapapeles('s-o-jello')" class="class button bottom s-o-jello">s-o-jello</a></div>
+    <div class="column"><a id="s-o-hinge" onclick="copiarAlPortapapeles('s-o-hinge')" class="class button bottom s-o-hinge">s-o-hinge</a></div>
+    </div><br><br><br><br>
+
+    <div class="columns is-vcentered animaciones">
+      <div class="column"><a id="s-o-slideRight" onclick="copiarAlPortapapeles('s-o-slideRight')" class="class button bottom s-o-slideRight">s-o-slideRight</a></div>
+      <div class="column"><a id="s-o-slideLeft" onclick="copiarAlPortapapeles('s-o-slideLeft')" class="class button bottom s-o-slideLeft">s-o-slideLeft</a></div>
+      </div><br><br><br><br>
+
+<script src="javascript/script.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="./javascript/jquery.waypoints.min.js"></script>
+<script src="./javascript/scrollcat.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+</html>
