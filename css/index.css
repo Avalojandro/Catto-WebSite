@@ -2,9 +2,11 @@
 
 
 body{
-    background: linear-gradient(270deg, #ffba8d -10.32%, #ffffff 100%);
-    overflow: hidden;
-    background-attachment: fixed;
+background-image: url("../images/abstract2.svg");
+overflow: hidden;
+background-repeat: no-repeat;
+background-size: contain;
+
 }
 
 .options
@@ -49,6 +51,7 @@ border-radius: 25px !important;
     font-weight: 800;
     font-size: 70px;
     line-height: 82px;
+    color: #000000;
     font-weight: bold;
 }
 
@@ -122,6 +125,7 @@ border-radius: 25px !important;
 .sintaxis
 {
     text-align: center !important;
+    background:linear-gradient(top, black, white);
 }
 .hai
 {
