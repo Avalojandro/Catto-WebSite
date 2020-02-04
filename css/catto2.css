@@ -12,7 +12,7 @@ A proyect by: Alejandro Avalos | https://github.com/Avalojandro/Catto-CSS*/
     transition: .5s, color .10s;
 }
 .h-float:hover{
-    box-shadow: 0 8px 8px 0 #bebbbc,0 8px 8px 0 #adadab;
+    box-shadow: 0 8px 8px 0 #000000,0 8px 8px 0 #1a1a1a;
     transform: translate(0px,5px);
 }
 

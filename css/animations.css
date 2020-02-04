@@ -1,9 +1,41 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700&display=swap&subset=latin-ext');
+
+*{font-family: 'Ubuntu', sans-serif}
 
 body{
-    background: linear-gradient(270deg, #ffba8d -10.32%, #ffffff 100%);
+    background: #fc4a1a;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FF6800,#e20e0eab);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FF6800,#e20e0eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
     overflow: hidden;
+
 }
+.navcolor
+{
+    background: #fc4a1a;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FF6800,#e20e0eab);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FF6800,#e20e0eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    
+}
+
+.patreon
+{
+width: 140px;
+height: 35px;
+border-radius: 25px !important;
+}
+.patron
+{
+    border-color: black !important;
+    border-width: 2px !important;
+}
+
+
+.text
+{
+    color: black !important;
+    font-weight: bold !important;
+}
+
 
 .options
 {
@@ -18,10 +50,12 @@ border-color: black !important;
 
 .btn-catto
 {
-    background-color: #ff6804 !important;
-    color: #ffffff !important;
+    background-color: transparent !important;
+    color: black !important;
+    border-width: 3px !important;
+    font-weight: bold;
     border-radius: 90px !important;
-    border-color: transparent !important;
+    border-color: black !important;
 }
 .btn-catto:hover{text-decoration: none;}
 
@@ -71,12 +105,13 @@ border-radius: 25px !important;
 .titulos
 {
     text-align: left;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 70px;
     line-height: 82px;
     font-weight: bold;
+    color: black;
 }
 .sub
 {
@@ -85,7 +120,26 @@ border-radius: 25px !important;
     font-family: 'Open Sans', sans-serif;
 }
 
-.advice{font-size: 30px;}
+.advice{font-size: 30px; color: black;}
+
+/*footer*/
+.footer
+{
+color: white;
+background-color: black !important;
+padding-bottom: 20px !important;
+}
+.href
+{
+    color: #FF6800 !important;
+    transition: .5s;
+}
+.href:hover
+{
+    text-decoration: none;
+    color: #00c3ff !important;
+}
+
 
 
 /*Media Queries*/

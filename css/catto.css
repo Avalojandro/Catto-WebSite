@@ -13,7 +13,7 @@ A proyect by: Alejandro Avalos | https://github.com/Avalojandro/Catto-CSS */
         -moz-transition: .5s, color .10s;
 }
 .h-float:hover{
-    box-shadow: 0 8px 8px 0 #bebbbc,0 8px 8px 0 #adadab;
+
     transform: translate(0px,5px);
         -webkit-transform: translate(0px,5px);
         -moz-transform:translate(0px,5px);
@@ -809,15 +809,15 @@ animation-iteration-count: infinite;
 }
 /*Slide Fade*/
 .slideFadeLeft{
-    animation-name: slide-fade-left;
-        -webkit-animation-name: slide-fade-left;
-        -moz-animation-name: slide-fade-left;
-    animation-duration: 1s;
-        -webkit-animation-duration: 1s;
-        -moz-animation-duration: 1s;
-    opacity: 1;
-        -webkit-opacity: 1;
-        -moz-opacity: 1;
+    animation-name: slide-fade-left !important;
+        -webkit-animation-name: slide-fade-left !important;
+        -moz-animation-name: slide-fade-left !important;
+    animation-duration: 1s !important;
+        -webkit-animation-duration: 1s !important;
+        -moz-animation-duration: 1s !important;
+    opacity: 1 !important;
+        -webkit-opacity: 1 !important;
+        -moz-opacity: 1 !important;
 }
 .slideFadeRight{
     animation-name: slide-fade-right;
