@@ -107,6 +107,18 @@ background-image: url("../images/background3.jpg");
 {
     padding-top: 80px;
 }
+.up
+{
+    animation-name: logos1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.down
+{
+    animation-name: logos2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
 .compat
 {
     color: #FF6800;
@@ -186,6 +198,23 @@ padding-bottom: 20px !important;
     color: #00c3ff !important;
 }
 
+
+/*animations*/
+@keyframes logos1
+{
+    0%{padding-top: 0px;}
+    50%{padding-top: 80px;}
+    100%{padding-top: 0px;}
+}
+
+@keyframes logos2
+{
+    0%{padding-top: 80px;}
+    50%{padding-top: 0px;}
+    100%{padding-top: 80px;}
+}
+
+/*media queries*/
 @media(max-width: 450px)
 {
     body{overflow: hidden;}
