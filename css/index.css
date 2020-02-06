@@ -41,7 +41,7 @@ border-radius: 25px !important;
     padding-top: 90px;
     padding-bottom: 120px;
     line-height : 55px;
-    background-image: url("Images/background3.jpg");
+background-image: url("../images/background3.jpg");
     background-size: cover !important;
 }
 .padding
@@ -184,4 +184,31 @@ padding-bottom: 20px !important;
 {
     text-decoration: none;
     color: #00c3ff !important;
+}
+
+@media(max-width: 450px)
+{
+    body{overflow: hidden;}
+    .padding{
+        text-align: center;
+        padding-left: 0px;
+    }
+    .name{font-size: 50px;}
+    .padd3{padding-left: 15px;}
+    .space{padding-left: 30px !important;}
+    .section3{text-align: center !important;}
+    .buttonss{font-size: 15px;}
+    .section4{padding-left: 12px;padding-right: 10px;}
+    .section5{text-align: center; padding-left: 10px;}
+}
+
+@media(min-width: 1010px)
+{
+    body{overflow: hidden;}
+    .name{font-size: 72px;}
+}
+
+@media(min-width: 1430px)
+{
+    .name{font-size: 75px;}
 }
