@@ -9048,6 +9048,7 @@ label.panel-block:hover {
   align-items: center;
 }
 
+
 @media screen and (min-width: 769px), print {
   .columns:not(.is-desktop) {
     display: flex;
